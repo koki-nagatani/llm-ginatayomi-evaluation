@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "llm-ginatayomi-evaluation"
+version = "0.1.0"
+description = ""
+authors = ["koki-nagatani"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+pyyaml = "^6.0.2"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.1"
+
+[tool.ruff]
+target-version = "py311"
+line-length=119
+exclude = [".mypy_cache"]
+extend-select = ["I"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

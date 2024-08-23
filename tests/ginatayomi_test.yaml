@@ -1,0 +1,203 @@
+- vars:
+    input: ここではきものをぬいでください
+  assert:
+    - type: contains-all
+      value:
+        - ここでは着物を脱いでください
+        - ここで履き物を脱いでください
+- vars:
+    input: ふろにはいるかいらないか
+  assert:
+    - type: contains-all
+      value:
+        - 風呂に入るか入らないか
+        - 風呂にはイルカはいらないか
+- vars:
+    input: すずきさんじゅうななさい
+  assert:
+    - type: contains-all
+      value:
+        - 鈴木さん十七歳
+        - 鈴木三十七歳
+- vars:
+    input: おそらくもっている
+  assert:
+    - type: contains-all
+      value:
+        - おそらく持っている
+        - お空曇っている
+- vars:
+    input: なんかいもみたい
+  assert:
+    - type: contains-all
+      value:
+        - 何回も見たい
+        - なんか芋みたい
+- vars:
+    input: ひらめいた
+  assert:
+    - type: contains-all
+      value:
+        - 閃いた
+        - ヒラメいた
+- vars:
+    input: くるまでまってて
+  assert:
+    - type: contains-all
+      value:
+        - 車で待ってて
+        - 来るまで待ってて
+- vars:
+    input: きょうふのみそしる
+  assert:
+    - type: contains-all
+      value:
+        - 恐怖の味噌汁
+        - 今日麩の味噌汁
+- vars:
+    input: あくのじゅうじか
+  assert:
+    - type: contains-all
+      value:
+        - 悪の十字架
+        - 開くの10時か
+- vars:
+    input: たいじんきょうふしょう
+  assert:
+    - type: contains-all
+      value:
+        - 対人恐怖症
+        - タイ人恐怖症
+- vars:
+    input: ゆうめいなやくざいし
+  assert:
+    - type: contains-all
+      value:
+        - 有名な薬剤師
+        - 有名なヤクザ医師
+- vars:
+    input: ししゃもくうおばさん
+  assert:
+    - type: contains-all
+      value:
+        - ししゃも食うおばさん
+        - 死者も食うおばさん
+- vars:
+    input: まにあいそうだ
+  assert:
+    - type: contains-all
+      value:
+        - 間に合いそうだ
+        - マニアいそうだ
+- vars:
+    input: きょうじゅうにみたい
+  assert:
+    - type: contains-all
+      value:
+        - 今日中に見たい
+        - 教授ウニみたい
+- vars:
+    input: おしょくじけん
+  assert:
+    - type: contains-all
+      value:
+        - お食事券
+        - 汚職事件
+- vars:
+    input: とうさんのかいしゃ
+  assert:
+    - type: contains-all
+      value:
+        - 倒産の会社
+        - 父さんの会社
+- vars:
+    input: かがみにきた
+  assert:
+    - type: contains-all
+      value:
+        - 鏡に来た
+        - 蚊が見に来た
+- vars:
+    input: おきゃくさまようといれ
+  assert:
+    - type: contains-all
+      value:
+        - お客様用トイレ
+        - お客彷徨うトイレ
+- vars:
+    input: みかんせいひんがかんせいした
+  assert:
+    - type: contains-all
+      value:
+        - 未完成品が完成した
+        - みかん製品が完成した
+- vars:
+    input: かんどうのちょうへんたいさく
+  assert:
+    - type: contains-all
+      value:
+        - 感動の長編大作
+        - 感動の超変態作
+- vars:
+    input: きょうじゅうにへんしんします
+  assert:
+    - type: contains-all
+      value:
+        - 今日中に返信します
+        - 教授ウニ変身します
+- vars:
+    input: きょうふくつうでめをさます
+  assert:
+    - type: contains-all
+      value:
+        - 今日腹痛で目を覚ます
+        - 恐怖苦痛で目を覚ます
+- vars:
+    input: みせしめる
+  assert:
+    - type: contains-all
+      value:
+        - 店閉める
+        - 見せしめる
+- vars:
+    input: ようしゃないです
+  assert:
+    - type: contains-all
+      value:
+        - 容赦ないです
+        - 酔う車内です
+- vars:
+    input: ようちゅういか
+  assert:
+    - type: contains-all
+      value:
+        - 要注意か
+        - 幼虫以下
+- vars:
+    input: かがみみにきた
+  assert:
+    - type: contains-all
+      value:
+        - 鏡見に来た
+        - 蚊が耳に来た
+- vars:
+    input: はげました
+  assert:
+    - type: contains-all
+      value:
+        - 励ました
+        - 禿げました
+- vars:
+    input: ことしじゅうにさいになる
+  assert:
+    - type: contains-all
+      value:
+        - 今年十二歳になる
+        - 今年中にサイになる
+- vars:
+    input: かくしごとはない
+  assert:
+    - type: contains-all
+      value:
+        - 隠し事はない
+        - 書く仕事はない

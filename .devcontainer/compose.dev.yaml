@@ -1,0 +1,21 @@
+services:
+  promptfoo:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+      target: dev
+    volumes:
+      - ../package.json:/app/package.json
+      - ../pyproject.toml:/app/pyproject.toml
+      - ../poetry.toml:/app/poetry.toml
+      - ../.gcloud:/app/.gcloud
+      - ../promptfooconfig.yaml:/app/promptfooconfig.yaml
+      - ../src:/app/src
+      - ../data:/app/data
+      - ../tests:/app/tests
+      - ../outputs:/app/outputs
+    ports:
+      - "15500:15500"
+    env_file:
+      - ../.env
+    tty: true

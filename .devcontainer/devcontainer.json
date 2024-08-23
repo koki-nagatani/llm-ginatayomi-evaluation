@@ -1,0 +1,10 @@
+{
+    "name": "llm ginatayomi evaluation with promptfoo",
+
+    "dockerComposeFile": "compose.dev.yaml",
+    "service": "promptfoo",
+    "workspaceFolder": "/app",
+
+    "remoteUser": "appuser"
+
+}

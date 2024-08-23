@@ -1,0 +1,14 @@
+# node.js
+node_modules/
+
+# python
+__pycache__/
+.venv/
+
+# config
+.env
+application_default_credentials.json
+
+
+.DS_Store
+

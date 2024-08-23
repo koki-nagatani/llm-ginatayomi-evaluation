@@ -1,0 +1,15 @@
+services:
+  promptfoo:
+    build: .
+    volumes:
+      - ./package.json:/app/package.json
+      - ./.gcloud:/app/.gcloud
+      - ./promptfooconfig.yaml:/app/promptfooconfig.yaml
+      - ./data:/app/data
+      - ./tests:/app/tests
+      - ./outputs:/app/outputs
+    ports:
+      - "15500:15500"
+    env_file:
+      - .env
+    tty: true
